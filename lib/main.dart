@@ -1,4 +1,4 @@
-import 'package:features/get_state/screens/first_screen.dart';
+
 import 'package:features/localization/sreen/home_screen.dart';
 import 'package:features/localization/sreen/translations.dart';
 import 'package:features/theme_data/theme/theme_data_light.dart';
