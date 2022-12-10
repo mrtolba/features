@@ -1,6 +1,7 @@
 import 'package:features/get_state/screens/first_screen.dart';
 import 'package:features/localization/sreen/home_screen.dart';
 import 'package:features/localization/sreen/translations.dart';
+import 'package:features/theme_data/theme/theme_data_light.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -20,10 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-
-        primarySwatch: Colors.blue,
-      ),
+      theme: getThemeDataLight(),
       home: const HomeScreen(),
       translations: Translation(),
       /// start lang @ App run
